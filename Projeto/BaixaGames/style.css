@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #1a1919;
+    border: #080808;
+    font-display: flex;
+    border-width: medium;
+}
+
+header{
+    width: 100%;
+    height: 350px;
+    border: #000;
+    background-color: #000;
+}
+
+.banner{
+    width: 100%;
+    height: 50vh;
+}
+
+.navbar{
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 220px;
+    cursor: pointer;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #14d603;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.login{
+    cursor: pointer;
+    width: 8cqmax;
+    color: #000;
+    background-color: rgb(13, 238, 50);
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: auto;
+    margin: auto;
+    right: 20px;
+    position: absolute;
+}
+
+input{
+    width: 47cqmax;
+    height: 40px;
+    margin: auto;
+    right: 50px;
+    margin-top: 50px;
+    margin-left: 270px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.search{
+    margin: auto;
+    margin-left: 0;
+    width: 9cqmax;
+    height: 35px;
+    color: #000;
+    background-color: #0312e4bb;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text{
+    color: #fff;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+ 
